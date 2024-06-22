@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmageEffects", "ImmageEffects\ImmageEffects.csproj", "{9949A40D-198D-443E-B1F2-93107C7A1603}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmageEffects.BLL", "ImmageEffects.BLL\ImmageEffects.BLL.csproj", "{5E749CCD-FDFB-4E52-B0D8-F9D91AFD4DB2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A07EBF60-FAC1-4E2F-BC8E-D866B50E2325} = {A07EBF60-FAC1-4E2F-BC8E-D866B50E2325}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmageEffects.Core", "ImmageEffects.Core\ImmageEffects.Core.csproj", "{A07EBF60-FAC1-4E2F-BC8E-D866B50E2325}"
 EndProject

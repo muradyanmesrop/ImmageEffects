@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ImmageEffects.Core\ImmageEffects.Core.csproj" />
+  </ItemGroup>
+
 </Project>
